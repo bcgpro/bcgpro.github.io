@@ -1,27 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Fizz Buzz</title>
-<script>
+<!-- Lightweight client-side loader that feature-detects and load polyfills only when necessary -->
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
 
-function fizzbuzz() {
-	var display = document.getElementById('display');
-	var displayHTML = "";
-	for (i = 0; i < 100; i++) {
-		displayHTML += "<p>" + i + "</p>";
-	}
-	display.innerHTML = displayHTML;
-}
+<!-- Load the element definition -->
+<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
 
-</script>
-
-</head>
-
-<body onload="fizzbuzz()">
-<div id="display">
-
-</div>
-</body>
-
-</html>
+<!-- Simply set the `src` attribute to your MD file and win -->
+<zero-md src="index.md"></zero-md>
