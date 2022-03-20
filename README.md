@@ -1,4 +1,4 @@
-## Final Project TBD
+## README.md - This is the Home Page
 
 **Description:** Create a personal site in markdown that is hosted on GitHub and provides information about you.
 
