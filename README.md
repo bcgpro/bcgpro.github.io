@@ -22,3 +22,6 @@ The information that you present on the markdown pages is up to you. But, it mus
 * Some text that is bolded.
 * Some text that is italicized.
 * A block of code.
+
+[An Internal Link to a Section Heading](/page-2.md)
+
